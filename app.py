@@ -21,5 +21,7 @@ def main():
 
     st.write(f"lat: {lat}, lon: {lon} - zoom: {zoom}")
 
+    st.image(get_image(lat, lon, zoom))
+
 if __name__ == '__main__':
-    main()  
+    main()
